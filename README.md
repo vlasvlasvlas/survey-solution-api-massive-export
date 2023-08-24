@@ -14,3 +14,4 @@ It uses ssaw library : https://github.com/vavalomi/ssaw
 
 - or you can just pip install -r requirements!
 
+- clone .env.dummy -> .env & fill with your connection strings (must have an API user created at SSolution)
