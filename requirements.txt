@@ -1,0 +1,12 @@
+annotated-types==0.5.0
+certifi==2023.7.22
+charset-normalizer==3.2.0
+graphql-core==3.2.3
+idna==3.4
+pydantic==2.3.0
+pydantic-core==2.6.3
+requests==2.31.0
+sgqlc==16.3
+ssaw==0.7
+typing-extensions==4.7.1
+urllib3==2.0.4
