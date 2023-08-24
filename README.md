@@ -15,3 +15,7 @@ It uses ssaw library : https://github.com/vavalomi/ssaw
 - or you can just pip install -r requirements!
 
 - clone .env.dummy -> .env & fill with your connection strings (must have an API user created at SSolution)
+
+# Result
+
+This script will create results per Questionnaire created at SSolution server, using QuestionnairesApi (https://ssaw.readthedocs.io/en/latest/)
