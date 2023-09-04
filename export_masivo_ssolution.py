@@ -1,6 +1,11 @@
 import ssaw, os
 from dotenv import load_dotenv
 
+# PyDantic
+# https://github.com/vavalomi/ssaw/issues/4
+from ssaw.models import Group
+Group.model_rebuild()
+
 load_dotenv()
 
 """
