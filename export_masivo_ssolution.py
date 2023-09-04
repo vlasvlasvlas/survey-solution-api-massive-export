@@ -39,5 +39,9 @@ for q in ssaw.QuestionnairesApi(client).get_list():
     print("folder:", final_directory)
     # Download the latest exported data in Tabular format
     filename = ssaw.ExportApi(client).get(
-        export_type="Tabular", export_path=final_directory, questionnaire_identity=q.id
+        export_type="Tabular", # Format of the export data: Tabular, STATA, SPSS, Binary, DDI, Paradata
+        export_path=final_directory, 
+        questionnaire_identity=q.id,
+        interview_status='All', # What interviews to include in the export
+        generate=True #  generate new export if no existing result setisfies the specified filters
     )
