@@ -50,3 +50,5 @@ for q in ssaw.QuestionnairesApi(client).get_list():
         interview_status='All', # What interviews to include in the export
         generate=True #  generate new export if no existing result setisfies the specified filters
     )
+
+# after: tandem with https://github.com/vlasvlasvlas/surveysolutions_utils
